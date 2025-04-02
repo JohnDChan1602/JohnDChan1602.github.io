@@ -1,17 +1,37 @@
 <html>
   <head>
-    <title>Main Page</title>
+    <title>The Button Game</title>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JRT9VGDWT"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-2JRT9VGDWT');
     </script>
+
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <p>Hello World!</p>
+    <!-- Header -->
+        <header>
+            <h1>The Button Game</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Achievements</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Counter -->
+        <div class="counter-container">
+            <h1>Counter: <span id="count">0</span></h1>
+            <button onclick="increaseCounter()">Press Me!</button>
+        </div>
+
+        <!-- JavaScript-->
+        <script src="script.js"></script>
   </body>
 </html>
