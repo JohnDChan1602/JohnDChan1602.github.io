@@ -1,0 +1,52 @@
+/* Main Webpage*/
+body {
+    font-family: blockCraft;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Font Setup*/
+@font-face {
+    font-family: blockCraft;
+    src: url('block-craft.medium.otf');
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 166, 255);
+}
+
+nav ul li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav ui li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #555;
+}
+
+/* Counter */
+.counter-container{
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    /* Alignment */
+    margin-left: 400px;
+    margin-top: 200px;
+}
