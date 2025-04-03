@@ -16,9 +16,9 @@ function updateCounter(){
     document.getElementById("count").textContent = countNumber;
 
     // Achievement Popup
-    const achPopUp = ach.find(achievement =>ach.number === countNumber);
+    const achPopUp = ach.find(ach => ach.number === countNumber);
 
-    if(achPopup){
+    if(achPopUp){
         // Slight Delay after Reaching Target Number
         setTimeout(() => {
             window.alert(achPopUp.message);
