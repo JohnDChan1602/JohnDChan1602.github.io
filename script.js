@@ -1,27 +1,27 @@
 // Counter
 let countNumber = 0;
 
+// Achievement List
+const ach = [
+    {number: 1, message: "And so, a clicker is born"},
+    {number: 10, message: "The beginning of curiosity"},
+    {number: 25, message: "Making good progress"},
+    {number: 50, message: "Halfway to perfection"},
+    {number: 100, message: "Full marks"}
+];
+
 // Text Popup
 function updateCounter(){
 
     document.getElementById("count").textContent = countNumber;
 
-    if(countNumber === 1){
+    // Achievement Popup
+    const achPopUp = ach.find(achievement =>ach.number === countNumber);
+
+    if(achPopup){
         // Slight Delay after Reaching Target Number
         setTimeout(() => {
-            window.alert("And so, a clicker is born");
-        }, 100);
-    }
-    else if(countNumber === 10){
-        // Slight Delay after Reaching Target Number
-        setTimeout(() => {
-            window.alert("The beginning of curiosity");
-        }, 100);
-    }
-    else if(countNumber === 25){
-        // Slight Delay after Reaching Target Number
-        setTimeout(() => {
-            window.alert("Making good progress");
+            window.alert(achPopUp.message);
         }, 100);
     }
 }
@@ -31,13 +31,5 @@ function increaseCounter(){
     updateCounter();
 }
 
-function decreaseCounter(){
-    countNumber--;
-    updateCounter();
-}
 
-function resetCounter(){
-    countNumber = 0;
-    updateCounter();
-}
 
