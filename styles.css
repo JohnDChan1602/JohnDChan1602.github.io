@@ -6,6 +6,11 @@ body {
 
 h1 {
     text-align: center;
+    margin-top: 5px;
+}
+
+button {
+    margin-left: 35px;
 }
 
 /* Font Setup*/
@@ -17,7 +22,6 @@ h1 {
 /* Navigation Bar */
 nav ul {
     list-style: none;
-    padding: 10px;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -43,10 +47,10 @@ nav ul li a:hover{
 /* Counter */
 .counter-container{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     background-color: white;
     /* Alignment */
-    margin-left: 400px;
+    margin-left: 675px;
     margin-top: 200px;
 }
