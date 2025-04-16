@@ -8,6 +8,10 @@ const ach = [
     {number: 25, message: "Making good progress"},
     {number: 50, message: "Halfway to perfection"},
     {number: 100, message: "Full marks"}
+    {number: 125, message: "Wait, there's more?"}
+    {number: 150, message: "Keep going"}
+    {number: 175, message: "Where does this go?"}
+    {number: 200, message: "Here! Have a puppy!"}
 ];
 
 // Text Popup
