@@ -33,7 +33,7 @@ function updateCounter(){
         }, 100);
     }
 
-    if(achPopUp = 1){
+    if(number = 200){
         showImage();
     }   
 }
