@@ -1,6 +1,10 @@
 // Counter
 let countNumber = 0;
 
+// Invisible Images
+var img = document.getElementById("puppy");
+img.style.visibility = 'hidden';
+
 // Achievement List
 const ach = [
     {number: 1, message: "And so, a clicker is born"},
@@ -28,12 +32,20 @@ function updateCounter(){
             window.alert(achPopUp.message);
         }, 100);
     }
+
+    if(achPopUp = 1){
+        showImage();
+    }   
 }
 
+// Increasing COunter
 function increaseCounter(){
     countNumber++;
     updateCounter();
 }
 
-
-
+// Showing Image
+function showImage(){
+    var img = document.getElementById("puppy");
+    img.style.visibility = 'visible';
+}

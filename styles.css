@@ -51,6 +51,14 @@ nav ul li a:hover{
     border-radius: 10px;
     background-color: white;
     /* Alignment */
-    margin-left: 675px;
+    margin-left: 425px;
     margin-top: 200px;
+}
+
+/* Puppy */
+.puppy-container{
+    /*Alignment*/
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
 }
