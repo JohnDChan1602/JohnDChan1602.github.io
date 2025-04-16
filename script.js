@@ -31,17 +31,17 @@ function updateCounter(){
         setTimeout(() => {
             window.alert(achPopUp.message);
         }, 100);
-    }
-
-    if(number = 200){
-        showImage();
-    }   
+    } 
 }
 
-// Increasing COunter
+// Increasing Counter
 function increaseCounter(){
     countNumber++;
     updateCounter();
+
+    if(countNumber == 200){
+        showImage();
+    }   
 }
 
 // Showing Image
